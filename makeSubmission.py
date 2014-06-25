@@ -24,7 +24,7 @@ the best performing classifier was an extremely random forest, which outperforme
 use 12k estimators for final submission using parameters from the grid search in the exploration notebook. 
 """
 exTree = ensemble.ExtraTreesClassifier(n_estimators = 12000, 
-                                       max_features=11,
+                                       max_features=13,
                                        min_samples_split=1,
                                        n_jobs = 1,
                                        random_state=10)
